@@ -1,6 +1,8 @@
 const UPDATE_NEW_MESSAGE_BODY = "UPDATE_NEW_MESSAGE_BODY";
 const SEND_MESSAGE = "SEND_MESSAGE";
 
+//default state
+
 let initialState = {
   dialogs: [
     { id: 1, name: "Dimych" },
