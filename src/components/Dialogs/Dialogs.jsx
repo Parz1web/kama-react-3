@@ -39,11 +39,12 @@ const Dialogs = (props) => {
                 value={newMessageBody}
                 onChange={onNewMessageChange}
                 placeholder="Enter your message"
+                className="border-gray-400 border-2"
               ></textarea>
             </div>
             <div>
               <button
-                className="borderDef ml-2 p-2"
+                className="borderDef ml-2 p-2 border-gray-400"
                 onClick={onSendMessageClick}
               >
                 Send

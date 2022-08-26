@@ -31,6 +31,7 @@ const MyPosts = (props) => {
             onChange={onPostChange}
             ref={newPostElement}
             value={props.newPostText}
+            className="border-gray-400 border-2"
           />
         </div>
         <div>
